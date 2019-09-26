@@ -6,6 +6,8 @@ class App < Sinatra::Base
   end
 
   post '/reverse' do
+    puts '/reverse' do
+      
     erb :reversed
   end
 
